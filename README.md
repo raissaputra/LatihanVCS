@@ -2,3 +2,22 @@
 Repo ini untuk pembelajaran mengenai cara penggunaan git dan instalasi nya.
 
 # TUTORIAL PENGGUNAAN GIT DAN GITHUB
+## Cara Install Git di Windows
+* Download File Git di situs resmi nya :
+  * link : https://git-scm.com/downloads
+* Buka file unduhan dan lakukan proses instalasi.
+* Ikuti intruksi dengan klik NEXT sampai tombol Install, seperti gambar di bawah ini:
+* Tunggu Proses Installing sampai selesai.
+* Setelah selesai install, buka cmd (command prompt) kalian untuk CEK VERSI GIT
+  * Ketikan git --version, seperti gambar dibawah ini:
+* LOGIN GITHUB dengan alamat email anda jika sudah punya akun github
+* Jika belum silakan untuk membuat akun github terlebih dahulu dan ikuti instruksinya
+* Buat Repository dengan petunjuk gambar di bawah ini:
+  * isi kan nama repo yang akan dibuat
+  * isi deskripsi repo jika perlu
+  * pilih public agar repo anda bisa dilihat oleh orang
+* Buat Folder pada komputer anda
+* Klik kanan dan pilih Git Bash Here
+* Ubah folder menjadi repository dengan perintah git init
+* tambahkan file pertama dan simpan di folder tersebut
+* 
