@@ -15,8 +15,25 @@ Repo ini untuk pembelajaran mengenai cara penggunaan git dan instalasi nya.
 * Setelah selesai install, buka cmd (command prompt) kalian
   * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/cmd.png) 
 * untuk CEK VERSI GIT
-  * Ketikan git --version, seperti gambar dibawah ini:
+  * Ketikan **git --version**, seperti gambar dibawah ini:
   * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/git--version.png)
+* Referensi untuk belajar dasar-dasar git dan github :
+  * link resmi dokumentasi git : https://git-scm.com/book/id/v2
+  * link w3schools : https://www.w3schools.com/git/default.asp?remote=github
+* Berikut adalah ringkasan dasar-dasar perintah Git :
+  * git config --global user.email "you@example.com" => menambahkan identitas user
+  * git config --global user.name "YourName" => menambahkan identitas user
+  * git init => membuat repository baru
+  * git add . => menambahkan semua file ke repository
+  * git commit -m "keterangan komit" => melakukan commit
+  * git remote add origin "url repo github" => menghubungkan ke server repository
+  * git push origin master => mengirim perubahan ke repository (master)
+  * git pull => untuk memperbaharui repo lokal agar up to date dengan repo master di github
+  * git log => untuk melihat perubahan apa saja yang telah dilakukan
+  * git clone "url repo github" => untuk menyalin sebuah repo publik ke repo lokal
+  * git status => untuk melihat status repo lokal kita status apa.
+  * git branch => untuk membuat cabang baru
+  * git merge => untuk menggabungkan branch/cabang ke master 
 * LOGIN GITHUB dengan alamat email anda jika sudah punya akun github, seperti di bawah ini:
   * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/sign-in-github.jpg)
 * Jika belum silakan untuk membuat akun github terlebih dahulu dan ikuti instruksinya
@@ -32,10 +49,10 @@ Repo ini untuk pembelajaran mengenai cara penggunaan git dan instalasi nya.
 * Buat Folder pada komputer anda
 * Klik kanan dan pilih Git Bash Here, seperti ini:
   * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/buat-repo-lokal.png)
-* Ubah folder menjadi repository dengan perintah git init, seperti gbr ini:
+* Ubah folder menjadi repository dengan perintah **git init**, seperti gbr ini:
   * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/git-init.png)
 * disini saya buat file TUTORIAL-GIT.txt dan simpan di Repo yang baru saja menjadi master
-* ketikan git status, untuk melihat status nya :
+* ketikan **git status**, untuk melihat status nya :
   * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/add-untrack.png)
   * nama file nya warna merah, maka harus di add, dengan perintah berikut :
   * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/stage.png)
@@ -43,5 +60,5 @@ Repo ini untuk pembelajaran mengenai cara penggunaan git dan instalasi nya.
   * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/first-commit.png) 
 * lakukan configurasi nama dan email dengan perintah berikut :
   * null
-* ketikan perintah git config --list, untuk melihat configurasi nya :
+* ketikan perintah **git config --list**, untuk melihat configurasi nya :
   * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/config--list.png)
