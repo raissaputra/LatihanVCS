@@ -1,5 +1,5 @@
 # LatihanVCS
-Repo ini untuk pembelajaran mengenai cara penggunaan git dan instalasi nya.
+*Repo ini untuk pembelajaran mengenai cara penggunaan git dan instalasi nya.*
 
 # TUTORIAL PENGGUNAAN GIT DAN GITHUB
 ## Cara Install Git di Windows
@@ -14,13 +14,13 @@ Repo ini untuk pembelajaran mengenai cara penggunaan git dan instalasi nya.
   * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/tunggu-finish-instal.png)
 * Setelah selesai install, buka cmd (command prompt) kalian
   * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/cmd.png) 
-* untuk CEK VERSI GIT
+* Untuk Cek Versi GIT
   * Ketikan **git --version**, seperti gambar dibawah ini:
   * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/git--version.png)
-* Referensi untuk belajar dasar-dasar git dan github :
+* ### Referensi untuk belajar dasar-dasar git dan github :
   * link resmi dokumentasi git : https://git-scm.com/book/id/v2
   * link w3schools : https://www.w3schools.com/git/default.asp?remote=github
-* Berikut adalah ringkasan dasar-dasar perintah Git :
+* **Berikut adalah ringkasan dasar-dasar perintah Git :**
   * git config --global user.email "you@example.com" => menambahkan identitas user
   * git config --global user.name "YourName" => menambahkan identitas user
   * git init => membuat repository baru
@@ -59,6 +59,12 @@ Repo ini untuk pembelajaran mengenai cara penggunaan git dan instalasi nya.
   * lakukan commit pertama dengan perintah di bawah ini :
   * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/first-commit.png) 
 * lakukan configurasi nama dan email dengan perintah berikut :
-  * null
+  * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/identitas.png)
 * ketikan perintah **git config --list**, untuk melihat configurasi nya :
   * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/config--list.png)
+* Untuk hubungkan repo lokal ke server github, lakukan perintah seperti di bawah ini :
+  * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/git-push.png)
+* Untuk mengirim perubahan ke server github, seperti di bawah ini :
+  * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/git-push-final.png)
+* Buka akun github, dan refresh untuk melihat hasilnya :
+  * ![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/update-github.png)
