@@ -1,3 +1,18 @@
 ===== TUTORIAL  GIT =====
 
 Tugas Matakuliah Bahasa Pemrograman
+
+==== LINK ====
+![img](https://github.com/raissaputra/LatihanVCS/blob/main/assets/git-scm.png)
+![img]()
+![img]()
+![img]()
+![img]()
+![img]()
+![img]()
+![img]()
+![img]()
+![img]()
+![img]()
+![img]()
+![img]()
